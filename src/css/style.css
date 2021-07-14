@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(5, 4, 4, 0.918);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+header{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;/*Espaço entre os itens*/ 
+    padding: 20px;
+    align-items: center;
+
+}
+header a{
+    color: #fff;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+header .logo{
+    font-size: 40px;
+    font-weight: bold;
+    justify-self: start;
+}
+.menu a:hover{
+    background-color: rgb(175, 25, 25);     
+}
+
+header.menu{
+    padding-top: 10px;
+    margin-left: 10px;
+   
+}
