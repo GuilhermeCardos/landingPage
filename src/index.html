@@ -1,23 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "preconnect" href = "https://fonts.googleapis.com"><link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin><link href = "https: //fonts.googleapis.com/css2? family = Roboto + Mono: ital, wght @ 1.300 & display = swap "rel =" stylesheet ">
     <link rel="shortcut icon" href="img/icon/icone.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <title>Book'Store Code</title>
+    <link rel="stylesheet" href="css/style-header.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="app.js" defer></script>
+
+
+    <title>BookStore</title>
 </head>
+
 <body>
     <header>
-        <a href="#" class="logo">Book'Store Code</a>
         <nav class="menu">
-            <a href="#">Home</a>
-            <a href="#">Produtos</a>
-            <a href="#">Contatos</a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <li class="fas fa-bars"></li>
+            </label>
+            <label class="logo">BookStore</label>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Inscreva-se</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
         </nav>
     </header>
+    <main>
+        <section>
+            <div class="banner">
+                <img src="img/banner/blackfriday.png" class="banimg" alt="">
+            </div>
+        </section>
+        <section class="contador">
+            <div id="year" class="year"></div>
+            <h1>Contagem regressiva </h1>
 
+            <div id="countdown" class="countdown">
+                <div class="time">
+                    <h2 id="dias">00</h2>
+                    <small id="small">dias</small>
+                </div>
+                <div class="time">
+                    <h2 id="horas">00</h2>
+                    <small id="small">horas</small>
+                </div>
+                <div class="time">
+                    <h2 id="minutos">00</h2>
+                    <small id="small">minutos</small>
+                </div>
+                <div class="time">
+                    <h2 id="segundos">00</h2>
+                    <small id="small">segundos</small>
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <h3 class="text-ti">Inscreva-se para receber nossas promoções</h3>
+            <form action="#">
+                <Label for="email">E-mail: </Label>
+                <input type="email" name="email" id="email">
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+    
 </body>
+
 </html>
