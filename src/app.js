@@ -3,6 +3,7 @@ const minutosCont = document.querySelector('#minutos');
 const horasCont = document.querySelector('#horas');
 const diasCont = document.querySelector('#dias');
 
+
 //Soma mais um ano ao atual 
 const anoAtual = new Date().getFullYear();
 const novoAnoAtual = new Date(`November 26 ${anoAtual} 00:00:00`);
