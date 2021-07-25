@@ -34,3 +34,5 @@ const atualizaContator = () => {
 //Função para repetir diversas vez para atualizar o contador
 //Passamos no Parâmetro a função e o tempo para atualização no caso 1 milissegundo 
 setInterval(atualizaContator, 1000)
+
+ 

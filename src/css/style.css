@@ -16,10 +16,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     
 }
-section div{
+.banner{
     display: flex;
-    justify-content: center;    
-    
+    justify-content: center;
 }
 
   
@@ -32,20 +31,19 @@ section div{
 /*----------------------------*/
 
 
-.form{
-    
+.form{ 
     display: flex;
     flex-direction: column;
     align-items: center;
-    font: 10rem;
-    color: #fff;
     background-color: #ef5777;
-    width: 90%;
+    width: 100%;
+    height: 70%;
     margin-top: 70px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    padding: 0;
+    margin-bottom: 50px;  
+    color: white;
+    font: normal Arial;
+    font-size: 1.5rem;
+    border-radius: 5px;
 }
 .text-ti{
     padding-top: 15px;
@@ -53,25 +51,17 @@ section div{
 }
 form input{
     margin-bottom: 15px;
-    width: 250px;
+    width: 300px;
+    height: 25px; 
+    border-radius: 10px;
 }
-
-
-footer{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 15px;
-    height: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    line-height: 20px;
-    background-color:#ef5777 ;
-    text-align: center;
-    border-radius: 5px;
-    color: #1e272e;
-}
-footer nav{
-    
-    padding-bottom: 3px;
+form button{
+    margin-left: 15px;
+    width: 55px;
+    height: 30px;
+    border-radius: 10px 5px 5px 6px;
+    background-color: rgba(66, 66, 66, 0.685);
+    color: #fffbfb;
+    font: bold;
 }
 
